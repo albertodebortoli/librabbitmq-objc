@@ -19,8 +19,8 @@
 
 #import "AMQPConsumerThread.h"
 
-# import "AMQPConsumer.h"
-# import "AMQPMessage.h"
+#import "AMQPConsumer.h"
+#import "AMQPMessage.h"
 
 @implementation AMQPConsumerThread
 

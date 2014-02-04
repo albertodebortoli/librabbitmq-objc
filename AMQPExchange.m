@@ -19,11 +19,11 @@
 
 #import "AMQPExchange.h"
 
-# import <amqp.h>
-# import <amqp_framing.h>
+#import "amqp.h"
+#import "amqp_framing.h"
 
-# import "config.h"
-# import "AMQPChannel.h"
+#import "config.h"
+#import "AMQPChannel.h"
 
 @implementation AMQPExchange
 
