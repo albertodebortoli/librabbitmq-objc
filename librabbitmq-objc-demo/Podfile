@@ -1,0 +1,10 @@
+# using CocoaPods 0.29.0, install/update using:
+# $ gem install cocoapods
+
+platform :ios, '6.0'
+inhibit_all_warnings!
+
+xcodeproj 'librabbitmq-objc-demo'
+workspace 'librabbitmq-objc-demo'
+
+pod 'librabbitmq-objc', '1.0.0'

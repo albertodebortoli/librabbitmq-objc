@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3CD115E188428CB002E9316 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3CD115D188428CB002E9316 /* Foundation.framework */; };
+		D3CD1160188428CB002E9316 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3CD115F188428CB002E9316 /* CoreGraphics.framework */; };
+		D3CD1162188428CB002E9316 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3CD1161188428CB002E9316 /* UIKit.framework */; };
+		D3CD1168188428CB002E9316 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D3CD1166188428CB002E9316 /* InfoPlist.strings */; };
+		D3CD116A188428CB002E9316 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CD1169188428CB002E9316 /* main.m */; };
+		D3CD116E188428CB002E9316 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CD116D188428CB002E9316 /* AppDelegate.m */; };
+		D3CD1170188428CB002E9316 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3CD116F188428CB002E9316 /* Images.xcassets */; };
+		D3CD11C518843A32002E9316 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3CD11C418843A32002E9316 /* SystemConfiguration.framework */; };
+		D3D917AF18A1B31900318B00 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3D917AE18A1B31900318B00 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		865E4106E88343959F2CA29C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D318D5B718A1BDDD00E81645 /* librabbitmq.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = librabbitmq.a; path = "Pods/librabbitmq-objc/rabbitmq-c/0.5.0/librabbitmq.a"; sourceTree = "<group>"; };
+		D3B9E82218A15B7800642249 /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = "Pods/build/Debug-iphoneos/libPods.a"; sourceTree = "<group>"; };
+		D3CD115A188428CB002E9316 /* librabbitmq-objc-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "librabbitmq-objc-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3CD115D188428CB002E9316 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D3CD115F188428CB002E9316 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D3CD1161188428CB002E9316 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D3CD1165188428CB002E9316 /* librabbitmq-objc-demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "librabbitmq-objc-demo-Info.plist"; sourceTree = "<group>"; };
+		D3CD1167188428CB002E9316 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D3CD1169188428CB002E9316 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D3CD116B188428CB002E9316 /* librabbitmq-objc-demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "librabbitmq-objc-demo-Prefix.pch"; sourceTree = "<group>"; };
+		D3CD116C188428CB002E9316 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D3CD116D188428CB002E9316 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D3CD116F188428CB002E9316 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D3CD1176188428CB002E9316 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D3CD117E188428CB002E9316 /* librabbitmq-objc-demoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "librabbitmq-objc-demoTests-Info.plist"; sourceTree = "<group>"; };
+		D3CD1180188428CB002E9316 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D3CD1182188428CB002E9316 /* librabbitmq_objc_demoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = librabbitmq_objc_demoTests.m; sourceTree = "<group>"; };
+		D3CD11C418843A32002E9316 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		D3CD11C718843B83002E9316 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		D3CD11CC18843D3B002E9316 /* librabbitmq-objc.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "librabbitmq-objc.podspec"; path = "../librabbitmq-objc.podspec"; sourceTree = "<group>"; };
+		D3CD11CE18843D3B002E9316 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D3D917AE18A1B31900318B00 /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = "Pods/build/Debug-iphoneos/libPods.a"; sourceTree = "<group>"; };
+		D71BF64B1B5E426BB62DA23F /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3CD1157188428CB002E9316 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3D917AF18A1B31900318B00 /* libPods.a in Frameworks */,
+				D3CD11C518843A32002E9316 /* SystemConfiguration.framework in Frameworks */,
+				D3CD1160188428CB002E9316 /* CoreGraphics.framework in Frameworks */,
+				D3CD1162188428CB002E9316 /* UIKit.framework in Frameworks */,
+				D3CD115E188428CB002E9316 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3CD1151188428CB002E9316 = {
+			isa = PBXGroup;
+			children = (
+				D3CD11CC18843D3B002E9316 /* librabbitmq-objc.podspec */,
+				D3CD11CE18843D3B002E9316 /* README.md */,
+				D3CD1163188428CB002E9316 /* librabbitmq-objc-demo */,
+				D3CD117C188428CB002E9316 /* librabbitmq-objc-demoTests */,
+				D3CD115C188428CB002E9316 /* Frameworks */,
+				D3CD115B188428CB002E9316 /* Products */,
+				D71BF64B1B5E426BB62DA23F /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		D3CD115B188428CB002E9316 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3CD115A188428CB002E9316 /* librabbitmq-objc-demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3CD115C188428CB002E9316 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D318D5B718A1BDDD00E81645 /* librabbitmq.a */,
+				D3D917AE18A1B31900318B00 /* libPods.a */,
+				D3B9E82218A15B7800642249 /* libPods.a */,
+				D3CD11C718843B83002E9316 /* CFNetwork.framework */,
+				D3CD11C418843A32002E9316 /* SystemConfiguration.framework */,
+				D3CD115D188428CB002E9316 /* Foundation.framework */,
+				D3CD115F188428CB002E9316 /* CoreGraphics.framework */,
+				D3CD1161188428CB002E9316 /* UIKit.framework */,
+				D3CD1176188428CB002E9316 /* XCTest.framework */,
+				865E4106E88343959F2CA29C /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3CD1163188428CB002E9316 /* librabbitmq-objc-demo */ = {
+			isa = PBXGroup;
+			children = (
+				D3CD116C188428CB002E9316 /* AppDelegate.h */,
+				D3CD116D188428CB002E9316 /* AppDelegate.m */,
+				D3CD116F188428CB002E9316 /* Images.xcassets */,
+				D3CD1164188428CB002E9316 /* Supporting Files */,
+			);
+			path = "librabbitmq-objc-demo";
+			sourceTree = "<group>";
+		};
+		D3CD1164188428CB002E9316 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3CD1165188428CB002E9316 /* librabbitmq-objc-demo-Info.plist */,
+				D3CD1166188428CB002E9316 /* InfoPlist.strings */,
+				D3CD1169188428CB002E9316 /* main.m */,
+				D3CD116B188428CB002E9316 /* librabbitmq-objc-demo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D3CD117C188428CB002E9316 /* librabbitmq-objc-demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3CD1182188428CB002E9316 /* librabbitmq_objc_demoTests.m */,
+				D3CD117D188428CB002E9316 /* Supporting Files */,
+			);
+			path = "librabbitmq-objc-demoTests";
+			sourceTree = "<group>";
+		};
+		D3CD117D188428CB002E9316 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3CD117E188428CB002E9316 /* librabbitmq-objc-demoTests-Info.plist */,
+				D3CD117F188428CB002E9316 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3CD1159188428CB002E9316 /* librabbitmq-objc-demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3CD1186188428CB002E9316 /* Build configuration list for PBXNativeTarget "librabbitmq-objc-demo" */;
+			buildPhases = (
+				1A6DD6F3C96C4E688500650A /* Check Pods Manifest.lock */,
+				D3CD1156188428CB002E9316 /* Sources */,
+				D3CD1157188428CB002E9316 /* Frameworks */,
+				D3CD1158188428CB002E9316 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "librabbitmq-objc-demo";
+			productName = "librabbitmq-objc-demo";
+			productReference = D3CD115A188428CB002E9316 /* librabbitmq-objc-demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3CD1152188428CB002E9316 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CTX;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "EF Education First";
+			};
+			buildConfigurationList = D3CD1155188428CB002E9316 /* Build configuration list for PBXProject "librabbitmq-objc-demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D3CD1151188428CB002E9316;
+			productRefGroup = D3CD115B188428CB002E9316 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3CD1159188428CB002E9316 /* librabbitmq-objc-demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3CD1158188428CB002E9316 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3CD1168188428CB002E9316 /* InfoPlist.strings in Resources */,
+				D3CD1170188428CB002E9316 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A6DD6F3C96C4E688500650A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3CD1156188428CB002E9316 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3CD116E188428CB002E9316 /* AppDelegate.m in Sources */,
+				D3CD116A188428CB002E9316 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D3CD1166188428CB002E9316 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3CD1167188428CB002E9316 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D3CD117F188428CB002E9316 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3CD1180188428CB002E9316 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3CD1184188428CB002E9316 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D71BF64B1B5E426BB62DA23F /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D3CD1185188428CB002E9316 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D71BF64B1B5E426BB62DA23F /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3CD1187188428CB002E9316 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D71BF64B1B5E426BB62DA23F /* Pods.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "librabbitmq-objc-demo/librabbitmq-objc-demo-Prefix.pch";
+				INFOPLIST_FILE = "librabbitmq-objc-demo/librabbitmq-objc-demo-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/alberto/Repositories/librabbitmq-objc/librabbitmq-objc-demo/Pods/librabbitmq-objc/rabbitmq-c/0.5.0",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D3CD1188188428CB002E9316 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D71BF64B1B5E426BB62DA23F /* Pods.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "librabbitmq-objc-demo/librabbitmq-objc-demo-Prefix.pch";
+				INFOPLIST_FILE = "librabbitmq-objc-demo/librabbitmq-objc-demo-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/alberto/Repositories/librabbitmq-objc/librabbitmq-objc-demo/Pods/librabbitmq-objc/rabbitmq-c/0.5.0",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3CD1155188428CB002E9316 /* Build configuration list for PBXProject "librabbitmq-objc-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3CD1184188428CB002E9316 /* Debug */,
+				D3CD1185188428CB002E9316 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3CD1186188428CB002E9316 /* Build configuration list for PBXNativeTarget "librabbitmq-objc-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3CD1187188428CB002E9316 /* Debug */,
+				D3CD1188188428CB002E9316 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3CD1152188428CB002E9316 /* Project object */;
+}

@@ -1,0 +1,10 @@
+PODS:
+  - librabbitmq-objc (1.0.0)
+
+DEPENDENCIES:
+  - librabbitmq-objc (= 1.0.0)
+
+SPEC CHECKSUMS:
+  librabbitmq-objc: b8a5cc1e9594b2f7d012539327a45254a62123a1
+
+COCOAPODS: 0.29.0
